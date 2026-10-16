@@ -9,8 +9,8 @@ on:
 permissions:
   contents: read
   actions: read
-  
-  jobs:
+
+jobs:
   prod:
     name: Deploy Prod
     runs-on: ubuntu-latest
